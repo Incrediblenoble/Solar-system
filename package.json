@@ -1,8 +1,8 @@
 {
   "name": "Solar System",
   "version": "6.7.6",
-  "author": "Siddharth Barahalikar <barahalikar.siddharth@gmail.com>",
-  "homepage": "https://www.linkedin.com/in/barahalikar-siddharth/",
+  "author": "Adebanjo referenced from Siddharth Barahalikar <barahalikar.siddharth@gmail.com>",
+  "homepage": "https://www.linkedin.com/in/adebanjo-adekanye/",
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
@@ -16,13 +16,14 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mocha-junit-reporter": "^2.2.1",
+    "mongodb": "^6.14.2",
     "mongoose": "5.13.20",
     "nyc": "^15.1.0"
   },
   "devDependencies": {
     "chai": "*",
     "chai-http": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "mocha-junit-reporter": "^2.2.1"
   }
 }
