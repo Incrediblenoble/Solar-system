@@ -18,8 +18,6 @@ mongoose.connect(
   {
     // user: `superuser`,
     // pass: `SuperPassword`,
-    // user: `superuser`,
-    // pass: `SuperPassword`,
     useNewUrlParser: true,
     useUnifiedTopology: true,
   },
